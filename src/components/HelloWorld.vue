@@ -37,6 +37,9 @@ export default {
   props: {
     msg: String,
   },
+  created() {
+    console.log('HelloWorld created!');
+  },
 };
 </script>
 
