@@ -32,3 +32,6 @@ yarn run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+下载不了依赖，尝试设置：
+yarn --registry=https://registry.npm.taobao.org --disturl=https://npm.taobao.org/dist
