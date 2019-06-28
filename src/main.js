@@ -1,12 +1,16 @@
 import Vue from 'vue';
 import App from './App.vue';
-import router from './router';
-import store from './store';
+import '@/assets/styles/reset.css';
 import 'iflex/iflex.css';
-import './common.less';
+import '@/assets/styles/common.less';
+import router from '@/routers/index';
+import store from '@/store/index';
+import axiosInstance from '@/plugins/axios/index';
+import '@/plugins/mock/index';
 
 
 Vue.config.productionTip = false;
+Vue.prototype.$axios = axiosInstance;
 
 new Vue({
   router,

@@ -9,9 +9,13 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "core-js": "^2.6.5",
     "iflex": "^1.1.0",
     "viewport-units-buggyfill": "^0.6.2",
+    "echarts": "^4.2.1",
+    "echarts-liquidfill": "^2.0.5",
+    "vue-echarts": "^4.0.3",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
@@ -26,12 +30,19 @@
     "babel-eslint": "^10.0.1",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "chai": "^4.1.2",
+    "cssnano": "^4.1.10",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "lint-staged": "^8.1.5",
+    "mockjs": "^1.0.1-beta3",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-px-to-viewport": "^1.1.0",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
