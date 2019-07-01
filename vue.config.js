@@ -15,7 +15,7 @@ module.exports = {
   每次保存时 lint 代码 想要在生产构建时禁用 eslint-loader，
   你可以用如下配置：lintOnSave: process.env.NODE_ENV !== 'production'
   */
-  lintOnSave: true,
+  lintOnSave: 'error',
   configureWebpack: (config) => {
     console.log('vue.config.js config.plugins:', config.plugins);
     if (process.env.NODE_ENV === 'production') {
