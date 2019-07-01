@@ -12,6 +12,12 @@ import '@/plugins/mock/index';
 Vue.config.productionTip = false;
 Vue.prototype.$axios = axiosInstance;
 
+// 全局路由前置守卫
+router.beforeEach((to, from, next) => {
+  console.log('全局路由前置守卫 beforeEach to:', to, 'from:', from);
+  next();
+});
+
 new Vue({
   router,
   store,
