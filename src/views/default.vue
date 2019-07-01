@@ -15,6 +15,24 @@
       <div style="">postcss-write-svg插件主要用来处理移动端1px的解决方案 使用的是background-image<br/>
       由于有一些低端机对border-image支持度不够友好，个人建议你使用background-image的这个方案。</div>
     </div>
+    <div
+      class="flexBox"
+      iflex="
+        mainDir:left
+        flexWrap:wrap
+        mainAlign:center
+        crossAlign:stretch
+        box:first
+      "
+    >
+      <div class="flex-item">flexBox iflex 依赖库 使用示例</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <div class="flex-item" iflex-item="grow:0 shrink:0">5</div>
+      <div class="flex-item">6</div>
+      <div class="flex-item">7</div>
+    </div>
   </div>
 </template>
 
@@ -49,5 +67,13 @@ export default {
 }
 .example-bg {
   background: white url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Crect fill='%2300b1ff' width='100%25' height='100%25'/%3E%3C/svg%3E");
+}
+
+.flex-item{
+  width: 90px;
+  height: 50px;
+  background-color: #cccccc;
+  margin: 5px;
+  padding: 10px;
 }
 </style>
