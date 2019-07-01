@@ -53,7 +53,7 @@ html {
     }
     fieldset p {
     margin: 0;
-    padding: 0008px;
+    padding: 0 0 0 8px;
     }
     legend {
     display: none;
@@ -71,9 +71,9 @@ html {
     margin-left: -1px;
     }
     hr {
-    border-bottom: 1pxsolid#FFFFFF;
-    border-top: 1pxsolid#E4E4E4;
-    border-width: 1px0;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #E4E4E4;
+    border-width: 1px 0;
     clear: both;
     height: 2px;
     margin: 5px0;
